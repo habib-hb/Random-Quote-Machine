@@ -1,0 +1,21 @@
+.background{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote-box{
+    width: 500px;
+    margin: 0 auto;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 2rem;
+    background-color: yellow;
+    color: #242424;
+    border-radius: 8px;
+}
