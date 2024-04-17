@@ -21,13 +21,32 @@
     box-shadow:  10px 5px 5px rgba(1, 1, 1, 0.3);
 }
 
+.quote-content{
+    height: 150px;
+    align-content: center;
+}
+
 .buttons{
     margin-top: 16px;
-    text-align: right;
+    text-align: center;
     margin-right: 16px;
 }
 
 .buttons a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#new-quote{
+    display: block;
+    margin-top: -30px;
+    width: 120px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+#new-quote:hover{
     cursor: pointer;
     opacity: 0.7;
 }
