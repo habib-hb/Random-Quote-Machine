@@ -31,6 +31,11 @@ function App() {
               -{quote.author}
             </h4>
           </div>
+          <div className="buttons">
+            <a href="twitter.com/intent/tweet" id="tweet-quote">
+              <FaTwitter color="black" size="30"/>
+            </a>
+          </div>
         </div>
       </div>
     </>
